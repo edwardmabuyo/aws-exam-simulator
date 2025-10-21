@@ -116,8 +116,9 @@ export default function ExamPage({ params }: { params: Promise<{ examId: string 
     if (!examState) return;
 
     const currentQuestion = examState.questions[currentIndex];
+    const currentAnswers = examState.userAnswers[currentQuestion.id] || [];
     const newAnswers = currentQuestion.multipleAnswers
-      ? toggleAnswer(examState.userAnswers[currentQuestion.id] || [], answerIndex)
+      ? toggleAnswer(currentAnswers, answerIndex)
       : [answerIndex];
 
     setExamState({
@@ -272,18 +273,18 @@ export default function ExamPage({ params }: { params: Promise<{ examId: string 
             </div>
 
             {/* Answer Options */}
-            <div className="space-y-3">
+            <div className="space-y-3" key={`${currentQuestion.id}-options`}>
               {currentQuestion.multipleAnswers ? (
                 // Multiple choice (checkboxes)
                 currentQuestion.options.map((option, index) => (
-                  <div key={index} className="flex items-start space-x-3 p-4 border rounded-lg hover:bg-gray-50 cursor-pointer">
+                  <div key={`${currentQuestion.id}-checkbox-${index}`} className="flex items-start space-x-3 p-4 border rounded-lg hover:bg-gray-50 cursor-pointer">
                     <Checkbox
-                      id={`option-${index}`}
+                      id={`${currentQuestion.id}-option-${index}`}
                       checked={userAnswer.includes(index)}
                       onCheckedChange={() => handleAnswerChange(index)}
                     />
                     <Label
-                      htmlFor={`option-${index}`}
+                      htmlFor={`${currentQuestion.id}-option-${index}`}
                       className="flex-1 cursor-pointer text-base"
                     >
                       {option}
