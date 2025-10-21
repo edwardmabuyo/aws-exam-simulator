@@ -20,6 +20,7 @@ export default function ExamPage({ params }: { params: Promise<{ examId: string 
   const [showSubmitDialog, setShowSubmitDialog] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [showExitDialog, setShowExitDialog] = useState(false);
+  const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(new Set());
 
   // Load exam state from sessionStorage
   useEffect(() => {
@@ -172,6 +173,12 @@ export default function ExamPage({ params }: { params: Promise<{ examId: string 
     router.push('/');
   };
 
+  const handleRevealAnswer = () => {
+    if (!examState) return;
+    const currentQuestion = examState.questions[currentIndex];
+    setRevealedAnswers(prev => new Set(prev).add(currentQuestion.id));
+  };
+
   if (!examState) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -310,15 +317,44 @@ export default function ExamPage({ params }: { params: Promise<{ examId: string 
               )}
             </div>
 
-            {/* Study Mode: Show Answer Button */}
-            {examState.config.mode === 'study' && userAnswer.length > 0 && (
-              <div className="mt-6 p-6 bg-blue-50 border border-blue-200 rounded-lg">
-                <h4 className="font-semibold text-blue-900 mb-3">Explanation:</h4>
-                <p className="text-blue-800 mb-4">{currentQuestion.explanation}</p>
-                <div className="text-sm">
-                  <p className="text-blue-700">
-                    <strong>Source:</strong> <a href={currentQuestion.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{currentQuestion.sourceName}</a>
-                  </p>
+            {/* Study Mode: Reveal Answer Button */}
+            {examState.config.mode === 'study' && !revealedAnswers.has(currentQuestion.id) && (
+              <div className="mt-6">
+                <Button
+                  onClick={handleRevealAnswer}
+                  variant="outline"
+                  className="w-full"
+                >
+                  💡 Show Answer & Explanation
+                </Button>
+              </div>
+            )}
+
+            {/* Study Mode: Show Answer & Explanation */}
+            {examState.config.mode === 'study' && revealedAnswers.has(currentQuestion.id) && (
+              <div className="mt-6 space-y-4">
+                {/* Correct Answers Display */}
+                <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+                  <h4 className="font-semibold text-green-900 mb-2">✓ Correct Answer{currentQuestion.correctAnswers.length > 1 ? 's' : ''}:</h4>
+                  <ul className="text-green-800 space-y-1">
+                    {currentQuestion.correctAnswers.map(idx => (
+                      <li key={idx} className="flex items-center gap-2">
+                        <span className="font-semibold">•</span>
+                        {currentQuestion.options[idx]}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Explanation */}
+                <div className="p-6 bg-blue-50 border border-blue-200 rounded-lg">
+                  <h4 className="font-semibold text-blue-900 mb-3">Explanation:</h4>
+                  <p className="text-blue-800 mb-4">{currentQuestion.explanation}</p>
+                  <div className="text-sm">
+                    <p className="text-blue-700">
+                      <strong>Source:</strong> <a href={currentQuestion.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{currentQuestion.sourceName}</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             )}

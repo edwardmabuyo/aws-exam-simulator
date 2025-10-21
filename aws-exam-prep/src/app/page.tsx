@@ -36,11 +36,13 @@ export default function Home() {
           randomize: true
         };
       } else {
+        const isAllQuestions = studyExamCount === 'all';
+        const studyQuestionCount = isAllQuestions ? 99999 : (customCount || parseInt(studyExamCount));
         config = {
           mode: 'study',
-          questionCount: customCount || parseInt(studyExamCount),
+          questionCount: studyQuestionCount,
           timeLimit: 0, // Untimed
-          randomize: true
+          randomize: !isAllQuestions // Don't randomize if ALL questions selected
         };
       }
       
@@ -212,6 +214,7 @@ export default function Home() {
                     <SelectItem value="15">15 questions</SelectItem>
                     <SelectItem value="20">20 questions</SelectItem>
                     <SelectItem value="30">30 questions</SelectItem>
+                    <SelectItem value="all">ALL questions (1,347)</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

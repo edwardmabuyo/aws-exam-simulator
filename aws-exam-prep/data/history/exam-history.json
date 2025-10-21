@@ -3817,6 +3817,2340 @@
       "averageTimePerQuestion": 15.913599999999999,
       "completed": true,
       "submittedAt": 1761026615614
+    },
+    {
+      "id": "fd1da345-8f0a-4455-b867-c26d114ed921",
+      "timestamp": 1761028673924,
+      "examMode": "full",
+      "configuration": {
+        "mode": "full",
+        "questionCount": 50,
+        "timeLimit": 5400,
+        "randomize": true
+      },
+      "questions": [
+        {
+          "questionId": "011157ff-1673-4688-8681-4495c483cda7",
+          "question": {
+            "id": "011157ff-1673-4688-8681-4495c483cda7",
+            "questionText": "Which AWS services can be used to move data from on-premises data centers to AWS? (Choose two.)",
+            "options": [
+              "AWS Snowball",
+              "AWS Lambda",
+              "AWS ElastiCache",
+              "AWS Database Migration Service (AWS DMS)",
+              "Amazon API Gateway"
+            ],
+            "correctAnswers": [
+              0,
+              3,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS Snowball and AWS Database Migration Service (AWS DMS) and Amazon API Gateway. For more details, please refer to the AWS documentation at https://aws.amazon.com/snowball/",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/snowball/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250332,
+              "updatedAt": 1761017250332,
+              "version": "1.0",
+              "examNumber": "20",
+              "questionNumber": "13"
+            }
+          },
+          "userAnswers": [
+            0,
+            3
+          ],
+          "correctAnswers": [
+            0,
+            3,
+            4
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "8ab05d9f-db48-46d7-b180-1127b343507a",
+          "question": {
+            "id": "8ab05d9f-db48-46d7-b180-1127b343507a",
+            "questionText": "Which of the following will enhance the security of access to the AWS Management Console’? (Select TWO)",
+            "options": [
+              "AWS Secrets Manager.",
+              "AWS Certificate Manager.",
+              "AWS Multi-Factor Authentication (AWS MFA).",
+              "Security groups.",
+              "Password policies."
+            ],
+            "correctAnswers": [
+              2,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS Multi-Factor Authentication (AWS MFA). and Password policies.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Security",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "security"
+            ],
+            "metadata": {
+              "createdAt": 1761017250306,
+              "updatedAt": 1761017250306,
+              "version": "1.0",
+              "examNumber": "11",
+              "questionNumber": "3"
+            }
+          },
+          "userAnswers": [
+            2,
+            4
+          ],
+          "correctAnswers": [
+            2,
+            4
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "772d23c4-b40a-4009-9b01-a7e53b9abe82",
+          "question": {
+            "id": "772d23c4-b40a-4009-9b01-a7e53b9abe82",
+            "questionText": "Which statement is correct with regards to AWS service limits? (Choose TWO)",
+            "options": [
+              "You can contact AWS support to increase the service limits.",
+              "Each IAM user has the same service limit.",
+              "There are no service limits on AWS.",
+              "You can use the AWS Trusted Advisor to monitor your service limits.",
+              "The Amazon Simple Email Service is responsible for sending email notifications when usage approaches a service limit."
+            ],
+            "correctAnswers": [
+              0,
+              3
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: You can contact AWS support to increase the service limits. and You can use the AWS Trusted Advisor to monitor your service limits.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Rds",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "rds"
+            ],
+            "metadata": {
+              "createdAt": 1761017250282,
+              "updatedAt": 1761017250282,
+              "version": "1.0",
+              "examNumber": "3",
+              "questionNumber": "22"
+            }
+          },
+          "userAnswers": [
+            0,
+            1
+          ],
+          "correctAnswers": [
+            0,
+            3
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "3d40a717-88fc-44c4-bc28-19f6c70cf5d9",
+          "question": {
+            "id": "3d40a717-88fc-44c4-bc28-19f6c70cf5d9",
+            "questionText": "A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?",
+            "options": [
+              "EC2 Dedicated Instances",
+              "EC2 Spot Instances",
+              "EC2 Reserved Instances",
+              "EC2 On-Demand Instances"
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: EC2 Reserved Instances. For more details, please refer to the AWS documentation at https://aws.amazon.com/choosing-a-cloud-platform/",
+            "domain": "billing",
+            "topic": "Cost",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/choosing-a-cloud-platform/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "cost"
+            ],
+            "metadata": {
+              "createdAt": 1761017250341,
+              "updatedAt": 1761017250341,
+              "version": "1.0",
+              "examNumber": "23",
+              "questionNumber": "40"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "c01fec94-872c-46f7-ad23-aaba3334f234",
+          "question": {
+            "id": "c01fec94-872c-46f7-ad23-aaba3334f234",
+            "questionText": "What is Amazon EFS?",
+            "options": [
+              "Serverless, fully scalable shared file system",
+              "Application streaming service that provides users with instant access to desktop applications from anywhere",
+              "Model, visualize, and automate the steps to release software with continuous delivery",
+              "Set up and govern a multi-account environment"
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "Amazon EFS is an AWS service that helps you serverless, fully scalable shared file system. This service is part of the storage category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "Amazon EFS",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/efs/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "storage"
+            ],
+            "metadata": {
+              "createdAt": 1761020153763,
+              "updatedAt": 1761020153763,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "STORAGE"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "f6e3d8b3-9725-4e54-ad22-cbee6fb59a27",
+          "question": {
+            "id": "f6e3d8b3-9725-4e54-ad22-cbee6fb59a27",
+            "questionText": "Under the AWS shared responsibility model, which of the following activities are the customer’s responsibility? (Select TWO)",
+            "options": [
+              "Patching operating system components for Amazon Relational Database Server (Amazon RDS).",
+              "Encrypting data on the client-side.",
+              "Training the data center staff.",
+              "Configuring Network Access Control Lists (ACL).",
+              "Maintaining environmental controls within a data center."
+            ],
+            "correctAnswers": [
+              1,
+              3
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Encrypting data on the client-side. and Configuring Network Access Control Lists (ACL).. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250302,
+              "updatedAt": 1761017250302,
+              "version": "1.0",
+              "examNumber": "9",
+              "questionNumber": "22"
+            }
+          },
+          "userAnswers": [
+            1,
+            3
+          ],
+          "correctAnswers": [
+            1,
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "488bdd52-6b31-42b7-b46c-f36900caf87a",
+          "question": {
+            "id": "488bdd52-6b31-42b7-b46c-f36900caf87a",
+            "questionText": "What time-savings advantage is offered with the use of Amazon Rekognition?",
+            "options": [
+              "Amazon Rekognition provides automatic watermarking of images.",
+              "Amazon Rekognition provides automatic detection of objects appearing in pictures.",
+              "Amazon Rekognition provides the ability to resize millions of images automatically.",
+              "Amazon Rekognition uses Amazon Mechanical Turk to allow humans to bid on object detection jobs."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "- Rekognition Image is an image recognition service that detects objects, scenes, and faces; extracts text; recognizes celebrities; and identifies inappropriate content in images.\n    - It also allows you to search and compare faces.\n    - Rekognition Image is based on the same proven, highly scalable, deep learning technology developed by Amazon's computer vision scientists to analyze billions of images daily for Prime Photos.\n\n    Reference:",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/rekognition/faqs/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250323,
+              "updatedAt": 1761017250323,
+              "version": "1.0",
+              "examNumber": "17",
+              "questionNumber": "1"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "21b6b716-bc4c-4492-ba21-90b551e6ad09",
+          "question": {
+            "id": "21b6b716-bc4c-4492-ba21-90b551e6ad09",
+            "questionText": "Under the AWS shared responsibility model, which of the following is the customer's responsibility?",
+            "options": [
+              "Patching guest OS and applications",
+              "Patching and fixing flaws in the infrastructure",
+              "Physical and environmental controls",
+              "Configuration of AWS infrastructure devices"
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Patching guest OS and applications. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250339,
+              "updatedAt": 1761017250339,
+              "version": "1.0",
+              "examNumber": "23",
+              "questionNumber": "9"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "e535ca27-a4fb-457b-a5b3-6f08dc06098f",
+          "question": {
+            "id": "e535ca27-a4fb-457b-a5b3-6f08dc06098f",
+            "questionText": "Which AWS service should you use to secure and durable data archiving and long-term backup?",
+            "options": [
+              "AWS Elastic Disaster Recovery",
+              "Amazon S3 Glacier storage classes",
+              "AWS Organizations",
+              "AWS Wavelength"
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "Amazon S3 Glacier storage classes is an AWS service that helps you secure and durable data archiving and long-term backup. This service is part of the storage category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "Amazon S3 Glacier storage classes",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/s3-glacier-storage-classes/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "storage"
+            ],
+            "metadata": {
+              "createdAt": 1761020153763,
+              "updatedAt": 1761020153763,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "STORAGE"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "f5780797-f4a6-496e-bdf2-be964393bafd",
+          "question": {
+            "id": "f5780797-f4a6-496e-bdf2-be964393bafd",
+            "questionText": "Which of the following would you use to manage your encryption keys in the AWS Cloud? (Choose TWO)",
+            "options": [
+              "AWS KMS.",
+              "AWS Certificate Manager.",
+              "AWS CodeDeploy.",
+              "AWS CodeCommit.",
+              "CloudHSM."
+            ],
+            "correctAnswers": [
+              0,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS KMS. and CloudHSM.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Encryption",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "encryption"
+            ],
+            "metadata": {
+              "createdAt": 1761017250295,
+              "updatedAt": 1761017250295,
+              "version": "1.0",
+              "examNumber": "7",
+              "questionNumber": "21"
+            }
+          },
+          "userAnswers": [
+            0,
+            4
+          ],
+          "correctAnswers": [
+            0,
+            4
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "888577e4-9414-4004-8b27-a0b47257b46f",
+          "question": {
+            "id": "888577e4-9414-4004-8b27-a0b47257b46f",
+            "questionText": "Under the AWS shared responsibility model, what are the customer's responsibilities? (Choose two.)",
+            "options": [
+              "Physical and environmental security",
+              "Physical network devices including firewalls",
+              "Storage device decommissioning",
+              "Security of data in transit",
+              "Data integrity authentication"
+            ],
+            "correctAnswers": [
+              3,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Security of data in transit and Data integrity authentication. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250336,
+              "updatedAt": 1761017250336,
+              "version": "1.0",
+              "examNumber": "21",
+              "questionNumber": "40"
+            }
+          },
+          "userAnswers": [
+            3,
+            4
+          ],
+          "correctAnswers": [
+            3,
+            4
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "3c6dcb86-e666-4008-aac7-f21762b4508c",
+          "question": {
+            "id": "3c6dcb86-e666-4008-aac7-f21762b4508c",
+            "questionText": "Which AWS service offers persistent storage for a file system?",
+            "options": [
+              "Amazon S3",
+              "Amazon EC2 instance store",
+              "Amazon Elastic Block Store (Amazon EBS)",
+              "Amazon ElastiCache"
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon Elastic Block Store (Amazon EBS). For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250337,
+              "updatedAt": 1761017250337,
+              "version": "1.0",
+              "examNumber": "22",
+              "questionNumber": "17"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "technology"
+        },
+        {
+          "questionId": "3ba45f8e-4c36-4e79-8f5f-67df6ef2c964",
+          "question": {
+            "id": "3ba45f8e-4c36-4e79-8f5f-67df6ef2c964",
+            "questionText": "A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. <br/> What is the best cloud architecture to address this consistently growing demand?",
+            "options": [
+              "Run the application on a bigger EC2 instance size.",
+              "Switch to an EC2 instance family that better matches batch requirements.",
+              "Distribute the application across multiple EC2 instances and run the workload in parallel.",
+              "Run the application on a bare metal EC2 instance."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Distribute the application across multiple EC2 instances and run the workload in parallel.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250332,
+              "updatedAt": 1761017250332,
+              "version": "1.0",
+              "examNumber": "20",
+              "questionNumber": "14"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "79070364-586b-4761-845e-fbd4de372b89",
+          "question": {
+            "id": "79070364-586b-4761-845e-fbd4de372b89",
+            "questionText": "What is the maximum amount of data that can be stored in S3 in a single AWS account?",
+            "options": [
+              "100 PetaBytes.",
+              "Virtually unlimited storage.",
+              "5TeraBytes.",
+              "10 Exabytes."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Virtually unlimited storage.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "S3",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "s3"
+            ],
+            "metadata": {
+              "createdAt": 1761017250300,
+              "updatedAt": 1761017250300,
+              "version": "1.0",
+              "examNumber": "8",
+              "questionNumber": "40"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "4a35b6fa-1def-4392-ad95-d17324719166",
+          "question": {
+            "id": "4a35b6fa-1def-4392-ad95-d17324719166",
+            "questionText": "A company is using EC2 Instances to run their e-commerce site on the AWS platform. If the site becomes unavailable, the company will lose a significant amount of money for each minute the site is unavailable. Which design principle should the company use to minimize the risk of an outage?",
+            "options": [
+              "Least Privilege.",
+              "Pilot Light.",
+              "Fault Tolerance.",
+              "Multi-threading."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Fault Tolerance.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250288,
+              "updatedAt": 1761017250288,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "1"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "d3ed044c-a9cf-4af6-b168-4df2f9aad6d7",
+          "question": {
+            "id": "d3ed044c-a9cf-4af6-b168-4df2f9aad6d7",
+            "questionText": "Which of the following resources can an AWS customer use to learn more about prohibited uses of the services offered by AWS?",
+            "options": [
+              "AWS Service Control Policies (SCPs).",
+              "AWS Artifact.",
+              "AWS Budgets.",
+              "AWS Acceptable Use Policy."
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: AWS Acceptable Use Policy.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250296,
+              "updatedAt": 1761017250296,
+              "version": "1.0",
+              "examNumber": "7",
+              "questionNumber": "31"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "security"
+        },
+        {
+          "questionId": "f522e824-202c-434c-a5e1-9c1d8f0d8426",
+          "question": {
+            "id": "f522e824-202c-434c-a5e1-9c1d8f0d8426",
+            "questionText": "What is the AWS Support feature that allows customers to manage support cases programmatically?",
+            "options": [
+              "AWS Trusted Advisor.",
+              "AWS Operations Support.",
+              "AWS Support API.",
+              "AWS Personal Health Dashboard."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: AWS Support API.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "billing",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250288,
+              "updatedAt": 1761017250288,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "5"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "973fab56-b9b9-4059-b3a4-07f3304cb115",
+          "question": {
+            "id": "973fab56-b9b9-4059-b3a4-07f3304cb115",
+            "questionText": "Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate?",
+            "options": [
+              "Reserved Instances",
+              "On-Demand Instances",
+              "Dedicated Instances",
+              "Spot Instances"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Spot Instances. For more details, please refer to the AWS documentation at https://aws.amazon.com/ec2/spot/",
+            "domain": "billing",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/ec2/spot/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250340,
+              "updatedAt": 1761017250340,
+              "version": "1.0",
+              "examNumber": "23",
+              "questionNumber": "27"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "5bbfc4a9-b9cd-453c-b266-885e8dbac7f3",
+          "question": {
+            "id": "5bbfc4a9-b9cd-453c-b266-885e8dbac7f3",
+            "questionText": "Which tool can a non-AWS customer use to compare the cost of on-premises environment resources to AWS?",
+            "options": [
+              "AWS Cost Explorer.",
+              "AWS Pricing Calculator.",
+              "AWS Budgets.",
+              "AWS TCO Calculator."
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: AWS TCO Calculator.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "billing",
+            "topic": "Cost",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "cost"
+            ],
+            "metadata": {
+              "createdAt": 1761017250293,
+              "updatedAt": 1761017250293,
+              "version": "1.0",
+              "examNumber": "6",
+              "questionNumber": "31"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "a799519a-5945-4254-a1a1-b5663fb1a9cf",
+          "question": {
+            "id": "a799519a-5945-4254-a1a1-b5663fb1a9cf",
+            "questionText": "Which of the following strategies helps protect your AWS root account?",
+            "options": [
+              "Delete root user access keys if you do not need them.",
+              "Apply MFA for the root account and use it for all of your work.",
+              "Access the root account only from your personal Mobile Phone.",
+              "Only share your AWS account password or access keys with trusted persons."
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Delete root user access keys if you do not need them.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250292,
+              "updatedAt": 1761017250292,
+              "version": "1.0",
+              "examNumber": "6",
+              "questionNumber": "22"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "security"
+        },
+        {
+          "questionId": "e07bbecf-44c1-4052-adcc-ebb426735111",
+          "question": {
+            "id": "e07bbecf-44c1-4052-adcc-ebb426735111",
+            "questionText": "Which AWS service or feature can enhance network security by blocking requests from a particular network for a web application on AWS? (Select TWO)",
+            "options": [
+              "AWS WAF.",
+              "AWS Trusted Advisor.",
+              "AWS Direct Connect.",
+              "AWS Organizations.",
+              "Network ACLs."
+            ],
+            "correctAnswers": [
+              0,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS WAF. and Network ACLs.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Security",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "security"
+            ],
+            "metadata": {
+              "createdAt": 1761017250302,
+              "updatedAt": 1761017250302,
+              "version": "1.0",
+              "examNumber": "9",
+              "questionNumber": "31"
+            }
+          },
+          "userAnswers": [
+            4,
+            0
+          ],
+          "correctAnswers": [
+            0,
+            4
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "94fe84a9-b2e2-49b3-9115-81590b634b89",
+          "question": {
+            "id": "94fe84a9-b2e2-49b3-9115-81590b634b89",
+            "questionText": "What are the benefits of using the AWS Cloud for companies with customers in many countries around the world (Select TWO)",
+            "options": [
+              "Companies can deploy applications in multiple AWS Regions to reduce latency.",
+              "Amazon Translate automatically translates third-party website interfaces into multiple languages.",
+              "Amazon CloudFront has multiple edge locations around the world to reduce latency.",
+              "Amazon Comprehend allows users to build applications that can respond to user requests in many languages.",
+              "Elastic Load Balancing can distribute application web traffic to multiple AWS Regions around the world which reduces latency."
+            ],
+            "correctAnswers": [
+              0,
+              2
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Companies can deploy applications in multiple AWS Regions to reduce latency. and Amazon CloudFront has multiple edge locations around the world to reduce latency.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250303,
+              "updatedAt": 1761017250303,
+              "version": "1.0",
+              "examNumber": "9",
+              "questionNumber": "37"
+            }
+          },
+          "userAnswers": [
+            0,
+            2
+          ],
+          "correctAnswers": [
+            0,
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "e33cbbba-d6d7-4705-bfd9-ca57cc0136e2",
+          "question": {
+            "id": "e33cbbba-d6d7-4705-bfd9-ca57cc0136e2",
+            "questionText": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
+            "options": [
+              "Amazon CloudWatch.",
+              "AWS CloudTrail.",
+              "AWS Config.",
+              "AWS Health."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: AWS CloudTrail.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250302,
+              "updatedAt": 1761017250302,
+              "version": "1.0",
+              "examNumber": "9",
+              "questionNumber": "33"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "b72b32a4-9971-470a-81a3-b7cf2f00578c",
+          "question": {
+            "id": "b72b32a4-9971-470a-81a3-b7cf2f00578c",
+            "questionText": "For managed services like Amazon DynamoDB, which of the below is AWS responsible for? (Choose TWO)",
+            "options": [
+              "Protecting credentials.",
+              "Logging access activity.",
+              "Patching the database software.",
+              "Operating system maintenance.",
+              "Creating access policies."
+            ],
+            "correctAnswers": [
+              2,
+              3
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Patching the database software. and Operating system maintenance.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "Dynamodb",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "dynamodb"
+            ],
+            "metadata": {
+              "createdAt": 1761017250285,
+              "updatedAt": 1761017250285,
+              "version": "1.0",
+              "examNumber": "4",
+              "questionNumber": "20"
+            }
+          },
+          "userAnswers": [
+            2,
+            3
+          ],
+          "correctAnswers": [
+            2,
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "technology"
+        },
+        {
+          "questionId": "7dcb760c-a03b-4b8d-9475-129511d4d88b",
+          "question": {
+            "id": "7dcb760c-a03b-4b8d-9475-129511d4d88b",
+            "questionText": "Which of the following will help AWS customers save on costs when migrating their workloads to AWS?",
+            "options": [
+              "Use servers instead of managed services.",
+              "Use existing third-party software licenses on AWS.",
+              "Migrate production workloads to AWS edge locations instead of AWS Regions.",
+              "Use AWS Outposts to run all workloads in a cost-optimized environment."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Use existing third-party software licenses on AWS.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Cost",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "cost"
+            ],
+            "metadata": {
+              "createdAt": 1761017250290,
+              "updatedAt": 1761017250290,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "40"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "29c2d402-b384-41f7-9279-533bc5f5bbbc",
+          "question": {
+            "id": "29c2d402-b384-41f7-9279-533bc5f5bbbc",
+            "questionText": "Which of the following is a cloud computing deployment model that connects infrastructure and applications between cloud-based resources and existing resources not located in the cloud?",
+            "options": [
+              "On-premises.",
+              "Mixed.",
+              "Hybrid.",
+              "Cloud."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Hybrid.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Cloud Computing",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "cloud computing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250292,
+              "updatedAt": 1761017250292,
+              "version": "1.0",
+              "examNumber": "6",
+              "questionNumber": "14"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "4c43f316-16eb-46b9-9e20-f957910aad63",
+          "question": {
+            "id": "4c43f316-16eb-46b9-9e20-f957910aad63",
+            "questionText": "Which cloud computing benefit does AWS demonstrate with its ability to offer lower variable costs as a result of high purchase volumes?",
+            "options": [
+              "Pay-as-you-go pricing",
+              "High availability",
+              "Global reach",
+              "Economies of scale"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Economies of scale. For more details, please refer to the AWS documentation at https://innovationtactics.com/amazon-business-model-amazon-web-services/",
+            "domain": "cloud-concepts",
+            "topic": "Cost",
+            "difficulty": "medium",
+            "sourceUrl": "https://innovationtactics.com/amazon-business-model-amazon-web-services/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "cost"
+            ],
+            "metadata": {
+              "createdAt": 1761017250342,
+              "updatedAt": 1761017250342,
+              "version": "1.0",
+              "examNumber": "23",
+              "questionNumber": "47"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "c0a95876-8003-4eda-9c04-ef5174d1676c",
+          "question": {
+            "id": "c0a95876-8003-4eda-9c04-ef5174d1676c",
+            "questionText": "Which of the following will impact the price paid for an EC2 instance? (Choose TWO)",
+            "options": [
+              "Instance type.",
+              "The Availability Zone where the instance is provisioned.",
+              "Load balancing.",
+              "Number of buckets.",
+              "Number of private IPs."
+            ],
+            "correctAnswers": [
+              0,
+              1
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Instance type. and The Availability Zone where the instance is provisioned.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250282,
+              "updatedAt": 1761017250282,
+              "version": "1.0",
+              "examNumber": "3",
+              "questionNumber": "31"
+            }
+          },
+          "userAnswers": [
+            0,
+            2
+          ],
+          "correctAnswers": [
+            0,
+            1
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "68468de4-1c48-494d-aebd-daf4e810663a",
+          "question": {
+            "id": "68468de4-1c48-494d-aebd-daf4e810663a",
+            "questionText": "Jessica is managing an e-commerce web application in AWS. The application is hosted on six EC2 instances. One day, three of the instances crashed; but none of her customers were affected. What has Jessica done correctly in this scenario?",
+            "options": [
+              "She has properly built an elastic system.",
+              "She has properly built a fault tolerant system.",
+              "She has properly built an encrypted system.",
+              "She has properly built a scalable system."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: She has properly built a fault tolerant system.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250280,
+              "updatedAt": 1761017250280,
+              "version": "1.0",
+              "examNumber": "2",
+              "questionNumber": "50"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "0dba5fe5-1f03-415f-876f-7ce7d4495076",
+          "question": {
+            "id": "0dba5fe5-1f03-415f-876f-7ce7d4495076",
+            "questionText": "Which of the following is the customer’s responsibility under the AWS shared responsibility model?",
+            "options": [
+              "Patching underlying infrastructure",
+              "Physical security",
+              "Patching Amazon EC2 instances",
+              "Patching network infrastructure"
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Patching Amazon EC2 instances. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250304,
+              "updatedAt": 1761017250304,
+              "version": "1.0",
+              "examNumber": "10",
+              "questionNumber": "6"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "bd4da992-bdd4-46ab-b533-3a8c0e5decad",
+          "question": {
+            "id": "bd4da992-bdd4-46ab-b533-3a8c0e5decad",
+            "questionText": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?",
+            "options": [
+              "Amazon Inspector",
+              "Amazon Macie",
+              "Amazon GuardDuty",
+              "AWS Secrets Manager"
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon Macie. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "S3",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "s3"
+            ],
+            "metadata": {
+              "createdAt": 1761017250337,
+              "updatedAt": 1761017250337,
+              "version": "1.0",
+              "examNumber": "22",
+              "questionNumber": "12"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "0c879220-076a-4981-9b30-a15a05af76d6",
+          "question": {
+            "id": "0c879220-076a-4981-9b30-a15a05af76d6",
+            "questionText": "A company is looking for a scalable data warehouse solution. Which of the following AWS solutions would meet the company’s needs?",
+            "options": [
+              "Amazon Simple Storage Service (Amazon S3).",
+              "Amazon DynamoDB.",
+              "Amazon Kinesis.",
+              "Amazon Redshift."
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon Redshift.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250311,
+              "updatedAt": 1761017250311,
+              "version": "1.0",
+              "examNumber": "12",
+              "questionNumber": "34"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "ff4d8a61-8285-4715-930e-ad02368b91f6",
+          "question": {
+            "id": "ff4d8a61-8285-4715-930e-ad02368b91f6",
+            "questionText": "Which of the following are benefits of hosting infrastructure in the AWS Cloud? (Choose two.)",
+            "options": [
+              "There are no upfront commitments.",
+              "AWS manages all security in the cloud.",
+              "Users have the ability to provision resources on demand.",
+              "Users have access to free and unlimited storage.",
+              "Users have control over the physical infrastructure."
+            ],
+            "correctAnswers": [
+              0,
+              2
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: There are no upfront commitments. and Users have the ability to provision resources on demand.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250325,
+              "updatedAt": 1761017250325,
+              "version": "1.0",
+              "examNumber": "17",
+              "questionNumber": "39"
+            }
+          },
+          "userAnswers": [
+            0,
+            2
+          ],
+          "correctAnswers": [
+            0,
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "a1fa9c22-1f74-41f8-99c0-a5c15888aa21",
+          "question": {
+            "id": "a1fa9c22-1f74-41f8-99c0-a5c15888aa21",
+            "questionText": "What is AWS IQ?",
+            "options": [
+              "Connects users to AWS Certified experts for help with AWS projects",
+              "Integrate with Lambda functions and view application workflows as a series of event-driven steps",
+              "Set a monthly cost budget with alerts for actual spend or forecasted spend",
+              "Monitors resources and applications, collects and tracks metrics, has alarms"
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "AWS IQ is an AWS service that helps you connects users to AWS Certified experts for help with AWS projects. This service is part of the customer engagement category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "AWS IQ",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/iq/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "customer-engagement"
+            ],
+            "metadata": {
+              "createdAt": 1761020153762,
+              "updatedAt": 1761020153762,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "CUSTOMER ENGAGEMENT"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "da389af8-196c-4517-86b9-688f024b511b",
+          "question": {
+            "id": "da389af8-196c-4517-86b9-688f024b511b",
+            "questionText": "Which of the following is the responsibility of AWS according to the AWS Shared Responsibility Model?",
+            "options": [
+              "Securing regions and edge locations.",
+              "Performing auditing tasks.",
+              "Monitoring AWS resources usage.",
+              "Securing access to AWS resources."
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Securing regions and edge locations.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250296,
+              "updatedAt": 1761017250296,
+              "version": "1.0",
+              "examNumber": "7",
+              "questionNumber": "34"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "eeb29031-60d9-4ed7-8b7e-4fe39b87ca0e",
+          "question": {
+            "id": "eeb29031-60d9-4ed7-8b7e-4fe39b87ca0e",
+            "questionText": "A solutions architect needs to create and control cryptographic keys that protect user data. Which service should they recommend?",
+            "options": [
+              "AWS Certificate Manager (ACM)",
+              "AWS IoT Core",
+              "AWS Directory Service",
+              "AWS KMS"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "AWS KMS is an AWS service that helps you create and control cryptographic keys that protect user data. This service is part of the security, identity, and compliance category and is essential for understanding AWS cloud services in the security domain.",
+            "domain": "security",
+            "topic": "AWS KMS",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/kms/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "security",
+              "aws-services",
+              "security,-identity,-and-compliance"
+            ],
+            "metadata": {
+              "createdAt": 1761020153763,
+              "updatedAt": 1761020153763,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "SECURITY, IDENTITY, AND COMPLIANCE"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "fdb2a9e9-834e-4f4e-86e2-3a0f9d4409eb",
+          "question": {
+            "id": "fdb2a9e9-834e-4f4e-86e2-3a0f9d4409eb",
+            "questionText": "Which methods can be used by customers to interact with AWS Identity and Access Management (IAM)? (Choose TWO)",
+            "options": [
+              "AWS CLI.",
+              "AWS Security Groups.",
+              "AWS SDKs.",
+              "AWS Network Access Control Lists.",
+              "AWS CodeCommit."
+            ],
+            "correctAnswers": [
+              0,
+              2
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS CLI. and AWS SDKs.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Iam",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "iam"
+            ],
+            "metadata": {
+              "createdAt": 1761017250288,
+              "updatedAt": 1761017250288,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "6"
+            }
+          },
+          "userAnswers": [
+            0,
+            2
+          ],
+          "correctAnswers": [
+            0,
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "7d879398-20bb-41eb-97d5-e4421b083aed",
+          "question": {
+            "id": "7d879398-20bb-41eb-97d5-e4421b083aed",
+            "questionText": "As part of the Enterprise support plan, who is the primary point of contact for ongoing support needs?",
+            "options": [
+              "AWS Identity and Access Management (IAM) user.",
+              "Infrastructure Event Management (IEM) engineer.",
+              "AWS Consulting Partners.",
+              "Technical Account Manager (TAM)."
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Technical Account Manager (TAM).. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "Support Plan",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "support plan"
+            ],
+            "metadata": {
+              "createdAt": 1761017250276,
+              "updatedAt": 1761017250276,
+              "version": "1.0",
+              "examNumber": "1",
+              "questionNumber": "34"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "d3c2f2ae-5a3c-4e15-aa6f-3853a5511982",
+          "question": {
+            "id": "d3c2f2ae-5a3c-4e15-aa6f-3853a5511982",
+            "questionText": "Which AWS tools assist with estimating costs? (Select three)",
+            "options": [
+              "Detailed billing report.",
+              "Cost allocation tags.",
+              "AWS Simple Monthly Calculator.",
+              "AWS Total Cost of Ownership (TCO) Calculator.",
+              "Cost Estimator."
+            ],
+            "correctAnswers": [
+              1,
+              2,
+              3
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Cost allocation tags. and AWS Simple Monthly Calculator. and AWS Total Cost of Ownership (TCO) Calculator.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "billing",
+            "topic": "Cost",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "cost"
+            ],
+            "metadata": {
+              "createdAt": 1761017250304,
+              "updatedAt": 1761017250304,
+              "version": "1.0",
+              "examNumber": "10",
+              "questionNumber": "22"
+            }
+          },
+          "userAnswers": [
+            3,
+            2,
+            4
+          ],
+          "correctAnswers": [
+            1,
+            2,
+            3
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "billing"
+        },
+        {
+          "questionId": "d06e5dec-9a31-495d-8a1d-315744e6ab5c",
+          "question": {
+            "id": "d06e5dec-9a31-495d-8a1d-315744e6ab5c",
+            "questionText": "Which of the following BEST describe the AWS pricing model? (Select TWO)",
+            "options": [
+              "Fixed-term.",
+              "Pay-as-you-go.",
+              "Colocation.",
+              "Planned.",
+              "Variable cost."
+            ],
+            "correctAnswers": [
+              1,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Pay-as-you-go. and Variable cost.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "billing",
+            "topic": "Pricing",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "pricing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250304,
+              "updatedAt": 1761017250304,
+              "version": "1.0",
+              "examNumber": "10",
+              "questionNumber": "9"
+            }
+          },
+          "userAnswers": [
+            1,
+            0
+          ],
+          "correctAnswers": [
+            1,
+            4
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "billing"
+        },
+        {
+          "questionId": "354d8d21-2312-4fcb-a83a-c13cac506f29",
+          "question": {
+            "id": "354d8d21-2312-4fcb-a83a-c13cac506f29",
+            "questionText": "Which AWS service should you use to extends AWS infrastructure, services, APIs, and tools to customer premises?",
+            "options": [
+              "AWS Lambda",
+              "AWS Batch",
+              "AWS Step Functions",
+              "AWS Outposts"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "AWS Outposts is an AWS service that helps you extends AWS infrastructure, services, APIs, and tools to customer premises. This service is part of the compute category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "AWS Outposts",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/outposts/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "compute"
+            ],
+            "metadata": {
+              "createdAt": 1761020153762,
+              "updatedAt": 1761020153762,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "COMPUTE"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "2693ec85-2440-4f59-ac92-c60bfe6a45cb",
+          "question": {
+            "id": "2693ec85-2440-4f59-ac92-c60bfe6a45cb",
+            "questionText": "Which AWS service should you use to build conversational interfaces for applications that use voice and text?",
+            "options": [
+              "AWS VPN",
+              "Amazon Comprehend",
+              "Amazon Lex",
+              "Amazon Transcribe"
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "Amazon Lex is an AWS service that helps you build conversational interfaces for applications that use voice and text. This service is part of the machine learning (ml) category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "Amazon Lex",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/lex/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "machine-learning-(ml)"
+            ],
+            "metadata": {
+              "createdAt": 1761020153763,
+              "updatedAt": 1761020153763,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "MACHINE LEARNING (ML)"
+            }
+          },
+          "userAnswers": [],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "faff0fe6-c58b-410f-94b3-d1430fab2b63",
+          "question": {
+            "id": "faff0fe6-c58b-410f-94b3-d1430fab2b63",
+            "questionText": "A company needs to run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data. Which AWS service would be the BEST fit?",
+            "options": [
+              "AWS Data Exchange",
+              "Amazon Translate",
+              "Amazon Athena",
+              "Amazon EMR"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "Amazon EMR is an AWS service that helps you run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data. This service is part of the analytics category and is essential for understanding AWS cloud services in the technology domain.",
+            "domain": "technology",
+            "topic": "Amazon EMR",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/emr/",
+            "sourceName": "AWS CLF-C02 Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "analytics"
+            ],
+            "metadata": {
+              "createdAt": 1761020153760,
+              "updatedAt": 1761020153760,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "ANALYTICS"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "11464301-1e4b-4df5-a4f0-20c45ddc7b67",
+          "question": {
+            "id": "11464301-1e4b-4df5-a4f0-20c45ddc7b67",
+            "questionText": "Which AWS service should you use to find, subscribe to, and use third-party data in the cloud?",
+            "options": [
+              "AWS Data Exchange",
+              "Amazon Athena",
+              "Amazon MSK",
+              "AWS Glue"
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "AWS Data Exchange is an AWS service that helps you find, subscribe to, and use third-party data in the cloud. This service falls under the analytics category and is commonly used in cloud architecture for data processing and analysis.",
+            "domain": "technology",
+            "topic": "AWS Data Exchange",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/data-exchange/",
+            "sourceName": "AWS Reference Guide",
+            "tags": [
+              "technology",
+              "aws-services",
+              "analytics"
+            ],
+            "metadata": {
+              "createdAt": 1761019963104,
+              "updatedAt": 1761019963104,
+              "version": "1.0",
+              "source": "AWS-CLF-C02-Reference-Guide",
+              "category": "analytics"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "ee41a4ef-5801-4b73-b19b-e7d260e813e8",
+          "question": {
+            "id": "ee41a4ef-5801-4b73-b19b-e7d260e813e8",
+            "questionText": "A customer needs to run a MySQL database that easily scales. Which AWS service should they use?",
+            "options": [
+              "Amazon Aurora.",
+              "Amazon Redshift.",
+              "Amazon DynamoDB.",
+              "Amazon ElastiCache."
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon Aurora.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250308,
+              "updatedAt": 1761017250308,
+              "version": "1.0",
+              "examNumber": "11",
+              "questionNumber": "29"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "0d2f5085-e8fc-4064-8f69-76037a373660",
+          "question": {
+            "id": "0d2f5085-e8fc-4064-8f69-76037a373660",
+            "questionText": "Which of the following is AWS's responsibility under the AWS shared responsibility model?",
+            "options": [
+              "Configuring third-party applications",
+              "Maintaining physical hardware",
+              "Securing application access and data",
+              "Managing custom Amazon Machine Images (AMIs)"
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Maintaining physical hardware. For more details, please refer to the AWS documentation at https://aws.amazon.com/compliance/shared-responsibility-model/",
+            "domain": "cloud-concepts",
+            "topic": "Shared Responsibility",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/compliance/shared-responsibility-model/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "shared responsibility"
+            ],
+            "metadata": {
+              "createdAt": 1761017250329,
+              "updatedAt": 1761017250329,
+              "version": "1.0",
+              "examNumber": "19",
+              "questionNumber": "3"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "71470ebc-82d4-4234-9df9-8871040b03aa",
+          "question": {
+            "id": "71470ebc-82d4-4234-9df9-8871040b03aa",
+            "questionText": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. When Amazon EC2 instance pricing option will meet these requirements?",
+            "options": [
+              "Dedicated Hosts.",
+              "Dedicated Instances.",
+              "Spot Instances.",
+              "Reserved Instances."
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Dedicated Hosts.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "billing",
+            "topic": "Pricing",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "pricing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250304,
+              "updatedAt": 1761017250304,
+              "version": "1.0",
+              "examNumber": "10",
+              "questionNumber": "18"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "billing"
+        },
+        {
+          "questionId": "7bdad7bb-2162-4033-9b4f-9b8bdaa6e6d8",
+          "question": {
+            "id": "7bdad7bb-2162-4033-9b4f-9b8bdaa6e6d8",
+            "questionText": "Which of the following BEST describe the AWS pricing model? (Choose two.)",
+            "options": [
+              "Fixed-term",
+              "Pay-as-you-go",
+              "Colocation",
+              "Planned",
+              "Variable cost"
+            ],
+            "correctAnswers": [
+              1,
+              4,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Pay-as-you-go and Variable cost and Variable cost. For more details, please refer to the AWS documentation at https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf",
+            "domain": "billing",
+            "topic": "Pricing",
+            "difficulty": "medium",
+            "sourceUrl": "https://d0.awsstatic.com/whitepapers/aws_pricing_overview.pdf",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "pricing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250322,
+              "updatedAt": 1761017250322,
+              "version": "1.0",
+              "examNumber": "16",
+              "questionNumber": "38"
+            }
+          },
+          "userAnswers": [
+            0,
+            1
+          ],
+          "correctAnswers": [
+            1,
+            4,
+            4
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "19a1446d-2d49-4425-9817-609da275683d",
+          "question": {
+            "id": "19a1446d-2d49-4425-9817-609da275683d",
+            "questionText": "Which of the following compute resources are serverless? (Choose TWO)",
+            "options": [
+              "Amazon EC2.",
+              "AWS Fargate.",
+              "AWS Lambda.",
+              "Amazon ECS.",
+              "Amazon EMR."
+            ],
+            "correctAnswers": [
+              1,
+              2
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: AWS Fargate. and AWS Lambda.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250295,
+              "updatedAt": 1761017250295,
+              "version": "1.0",
+              "examNumber": "7",
+              "questionNumber": "12"
+            }
+          },
+          "userAnswers": [
+            2,
+            1
+          ],
+          "correctAnswers": [
+            1,
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "82b939fb-bf81-47e9-8eb7-7e5e2afa1688",
+          "question": {
+            "id": "82b939fb-bf81-47e9-8eb7-7e5e2afa1688",
+            "questionText": "What are the advantages of using Auto Scaling Groups for EC2 instances?",
+            "options": [
+              "Auto Scaling Groups caches the most recent responses at global edge locations to reduce latency and improve performance.",
+              "Auto Scaling Groups scales EC2 instances in multiple Availability Zones to increase application availability and fault tolerance.",
+              "Auto Scaling Groups scales EC2 instances across multiple regions to reduce latency for global users.",
+              "Auto Scaling Groups distributes application traffic across multiple Availability Zones to enhance performance."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Auto Scaling Groups scales EC2 instances in multiple Availability Zones to increase application availability and fault tolerance.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Ec2",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "ec2"
+            ],
+            "metadata": {
+              "createdAt": 1761017250289,
+              "updatedAt": 1761017250289,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "17"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        }
+      ],
+      "score": {
+        "totalQuestions": 50,
+        "correctAnswers": 39,
+        "incorrectAnswers": 10,
+        "unansweredQuestions": 1,
+        "rawScore": 39,
+        "percentageScore": 78,
+        "scaledScore": 802,
+        "passFail": "pass",
+        "domainScores": {
+          "cloudConcepts": {
+            "domain": "cloud-concepts",
+            "questionsInDomain": 13,
+            "correctInDomain": 11,
+            "percentageScore": 84.61538461538461,
+            "scaledScore": 862
+          },
+          "security": {
+            "domain": "security",
+            "questionsInDomain": 13,
+            "correctInDomain": 11,
+            "percentageScore": 84.61538461538461,
+            "scaledScore": 862
+          },
+          "technology": {
+            "domain": "technology",
+            "questionsInDomain": 16,
+            "correctInDomain": 13,
+            "percentageScore": 81.25,
+            "scaledScore": 831
+          },
+          "billing": {
+            "domain": "billing",
+            "questionsInDomain": 8,
+            "correctInDomain": 4,
+            "percentageScore": 50,
+            "scaledScore": 550
+          }
+        }
+      },
+      "timeTaken": 1315.935,
+      "averageTimePerQuestion": 26.3187,
+      "completed": true,
+      "submittedAt": 1761028673924
     }
   ]
 }
