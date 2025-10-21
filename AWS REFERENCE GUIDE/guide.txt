@@ -1,0 +1,433 @@
+ TRAINING AND CERTIFICATION
+AWS Certified Cloud Practitioner Exam (CLF-C02) Reference Guide
+This guide is not exhaustive and does not include all content for the exam.
+SERVICE SUMMARIES
+Choose the link for each service name for more information, including the full service name for those that are abbreviated.
+    ANALYTICS
+   Amazon Athena
+    analyze data directly in Amazon S3 by using standard SQL
+   AWS Data Exchange
+   find, subscribe to, and use third-party data in the cloud
+   Amazon EMR
+  run big data frameworks, such as Apache Hadoop and Apache Spark, to process and analyze vast amounts of data
+ AWS Glue
+    discover, prepare, move, and integrate data from multiple sources
+   Amazon Kinesis
+ collect, process, and analyze video streams and data streams in near real time
+  Amazon MSK
+    build and run applications that use Apache Kafka to process streaming data
+   Amazon OpenSearch Service
+  deploy, operate, and scale OpenSearch clusters in the cloud
+  Amazon QuickSight
+    business intelligence service that provides insights in a single data dashboard
+     APPLICATION INTEGRATION
+ Amazon EventBridge
+    use events to connect application components together, build scalable event-driven applications
+   Amazon SNS
+ provides message delivery from publishers to subscribers
+  Amazon SQS
+  provides a queue to integrate and decouple distributed software systems and components
+  AWS Step Functions
+    integrate with Lambda functions and view application workflows as a series of event-driven steps
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+1
+ 
+    BUSINESS APPLICATIONS
+ Amazon Connect
+    omnichannel cloud contact center
+   Amazon SES
+   send and receive emails through existing email addresses and domains
+     CLOUD FINANCIAL MANAGEMENT
+  AWS Billing Conductor
+  custom billing service that can support showback and chargeback workflows of AWS Solution Providers and Enterprise customers
+ AWS Budgets
+    set a monthly cost budget with alerts for actual spend or forecasted spend
+   AWS Cost and Usage Report
+  contains the most comprehensive set of cost and usage data available
+  AWS Cost Explorer
+  visualize cost and usage over time, including the past 12 months and a forecast of the next 12 months
+  AWS Marketplace
+    curated digital catalog of third-party software, data, and services
+     COMPUTE
+ AWS Batch
+    run batch computing workloads
+   Amazon EC2
+ provides scalable computing capacity in the AWS Cloud
+  AWS Elastic Beanstalk
+  deploy and manage applications without knowledge of the underlying infrastructure
+  AWS Lambda
+  run code without the need to provision or manage servers
+  Amazon Lightsail
+  launch projects quickly from a simple management interface
+  AWS Outposts
+    extends AWS infrastructure, services, APIs, and tools to customer premises
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+2
+ 
+    CONTAINERS
+ Amazon ECR
+    container image registry that is secure, scalable, and reliable
+   Amazon ECS
+   deploy, manage, and scale containerized applications
+   Amazon EKS
+  run Kubernetes without the need to install, operate, or maintain the Kubernetes control plane or nodes
+ AWS Fargate
+    works with Amazon ECS to run containers without the need to manage servers or EC2 instances
+     CUSTOMER ENGAGEMENT
+  AWS Activate for Startups
+  provides resources to help startups build and grow on AWS
+  AWS IQ
+    connects users to AWS Certified experts for help with AWS projects
+   AWS Managed Services (AMS)
+    provides ongoing management for a user’s AWS infrastructure
+    DATABASE
+ Amazon Aurora
+    database engine that is compatible with MySQL and PostgreSQL
+   Amazon DynamoDB
+   NoSQL database service with fast and predictable performance and seamless scalability; schemaless
+   Amazon MemoryDB for Redis
+  durable, in-memory database service that delivers ultra-fast performance
+  Amazon Neptune
+  graph database service for highly connected datasets
+  Amazon RDS
+  set up, operate, and scale a relational database in the cloud
+  Amazon Redshift
+    petabyte-scale data warehouse with automatically provisioned resources and intelligent scaling
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+3
+ 
+    DEVELOPER TOOLS
+ AWS AppConfig
+    create, manage, and quickly deploy application configurations
+   AWS CLI
+   interact with AWS services through commands in the command-line shell
+   AWS Cloud9
+  an integrated development environment (IDE) with a built-in terminal that supports several programming languages
+ AWS CloudShell
+    a browser-based, pre-authenticated shell that users can launch directly from the console
+   AWS CodeArtifact
+  artifact repository that helps companies to store and share software packages for application development
+ AWS CodeBuild
+    compiles source code, runs unit tests, and produces artifacts that are ready to deploy
+   AWS CodeCommit
+ host private Git repositories, store and manage assets
+  AWS CodeDeploy
+  automate application deployments to on-premises instances or select AWS resources
+  AWS CodePipeline
+    model, visualize, and automate the steps to release software with continuous delivery
+   AWS CodeStar
+  create and manage software development projects by integrating AWS services in the project development toolchain
+ AWS SDK
+    use software development kits to develop applications in your preferred programming language
+   AWS X-Ray
+   collects data about application requests and provides tools to view, filter, and gain insights into the data
+     END-USER COMPUTING
+  Amazon AppStream 2.0
+  application streaming service that provides users with instant access to desktop applications from anywhere
+ Amazon WorkSpaces
+    provision virtual, cloud-based desktops without the need to deploy hardware or install complex software
+   Amazon WorkSpaces Web
+    facilitates secure browser access to internal websites and SaaS applications
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+4
+ 
+    FRONTEND WEB AND MOBILE
+ AWS Amplify
+    set of purpose-built tools and features to build full-stack applications
+   AWS AppSync
+   connect applications and services to data and events with GraphQL and pub/sub APIs
+   AWS Device Farm
+   app testing for Android, iOS, and web apps
+     INTERNET OF THINGS (IoT)
+ AWS IoT Core
+    connect and process messages between IoT devices and IoT services
+   AWS IoT Greengrass
+   build, deploy, and manage IoT edge runtime applications on devices
+     MACHINE LEARNING (ML)
+ Amazon Comprehend
+    uses natural language processing (NLP) to extract insights from documents
+   Amazon Kendra
+ intelligent search service that uses NLP and ML algorithms
+  Amazon Lex
+  build conversational interfaces for applications that use voice and text
+  Amazon Polly
+  convert text into lifelike speech
+  Amazon Rekognition
+  identify objects, people, text, scenes, and activities in images and videos
+  Amazon SageMaker
+  build and train ML models, then deploy the models in a production-ready hosted environment
+  Amazon Textract
+  automatically extract text, handwriting, and data from scanned documents
+  Amazon Transcribe
+    automatic speech recognition that converts audio to text
+   Amazon Translate
+   translate unstructured text documents or build applications that work in multiple languages
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+5
+ 
+    MANAGEMENT AND GOVERNANCE
+  AWS Auto Scaling
+  monitors applications to automatically scale resources dynamically by adjusting capacity based on defined thresholds
+ AWS CloudFormation
+    model, set up, and create templates of AWS resources
+   AWS CloudTrail
+ records actions taken by users in the console, AWS CLI, AWS SDKs, and APIs
+  Amazon CloudWatch
+    monitors resources and applications, collects and tracks metrics, has alarms
+   AWS Compute Optimizer
+  analyzes the configuration and utilization metrics of resources, provides optimization recommendations
+  AWS Config
+  provides a detailed view of AWS resource configuration, changes in configuration, and compliance
+  AWS Control Tower
+    set up and govern a multi-account environment
+   AWS Health Dashboard
+  provides ongoing visibility into resource performance and availability of AWS services and user accounts
+ AWS Launch Wizard
+    deploy application and domain-controller solutions to the cloud
+   AWS License Manager
+   manage software licenses from software vendors centrally across AWS and on-premises environments
+   AWS Management Console
+  web application used to manage AWS resources
+  AWS Organizations
+  account management service that can consolidate billing and accounts
+  AWS Service Catalog
+    create and manage catalogs of IT services that are approved for AWS
+   AWS Systems Manager
+ organize, monitor, and automate management tasks on AWS resources
+  AWS Trusted Advisor
+    inspects a user’s AWS environment and makes recommendations based on best practices
+   AWS Well-Architected Tool
+    provides recommendations to improve workloads based on best practices
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+6
+ 
+    MIGRATION AND TRANSFER
+  AWS Application Discovery Service
+    collects usage and configuration data about on-premises servers and databases to help plan a migration to AWS
+   AWS Application Migration Service
+  automated lift-and-shift (rehost) solution for migrations to AWS
+  AWS DMS
+    migrate relational databases, data warehouses, NoSQL databases, and data stores to AWS
+   AWS Migration Hub
+  a central location to discover existing servers, plan migrations, and track the status of each application migration
+ AWS SCT
+    convert an existing database schema from one database engine to another
+   AWS Snow Family
+ run operations in remote, non-data center environments, and locations without network connectivity
+  AWS Transfer Family
+    transfer files in to and out of AWS storage services
+     NETWORKING AND CONTENT DELIVERY
+ Amazon API Gateway
+    create, publish, and monitor REST, HTTP, and WebSocket APIs at any scale
+   Amazon CloudFront
+ speed up distribution of static and dynamic web content to end users through edge locations
+  AWS Direct Connect
+  a private dedicated network connection from an on-premises data center to the cloud
+  AWS Global Accelerator
+  improve availability and performance of applications through a global network of endpoints
+  Amazon Route 53
+  DNS service for domain registration, DNS routing, and health checking
+  Amazon VPC
+  launch AWS resources in logically isolated virtual networks
+  AWS VPN
+    establish a secure and private tunnel from on premises to the cloud
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+7
+ 
+    SECURITY, IDENTITY, AND COMPLIANCE
+ AWS Artifact
+    download security and compliance documents
+   AWS Audit Manager
+   continually audit AWS usage to manage risk and to comply with regulations and industry standards
+   AWS Certificate Manager (ACM)
+  creates, stores, and renews public and private SSL/TLS certificates
+  AWS CloudHSM
+  provides a compute device that processes cryptographic operations and storage
+  Amazon Cognito
+  identity platform for web and mobile applications, including federation for third parties
+  Amazon Detective
+  analyze, investigate, and identify the root cause of security findings or suspicious activities
+  AWS Directory Service
+    provides multiple ways to set up and run Microsoft Active Directory with AWS services
+   AWS Firewall Manager
+  provides administration and maintenance tasks across multiple accounts and resources for a variety of protections
+ Amazon GuardDuty
+    intelligent threat detection that provides continuous monitoring
+   IAM
+ helps users securely control access to AWS resources
+ IAM Identity Center
+    manage sign-in security for workforce identities
+   Amazon Inspector
+ continuously scans AWS workloads for software vulnerabilities and unintended network exposure
+  AWS KMS
+    create and control cryptographic keys that protect user data
+   Amazon Macie
+ discovers sensitive data, PII, and security risks, then provides automated protection against those risks
+  AWS Network Firewall
+    provides intrusion detection and prevention for a VPC
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+8
+(continued on next page)
+ 
+   SECURITY, IDENTITY, AND COMPLIANCE (CONTINUED)
+ AWS RAM
+    securely share resources across AWS accounts
+   AWS Secrets Manager
+   manage and rotate credentials to improve security
+   AWS Security Hub
+ collects security data across accounts and identifies priority security issues
+  AWS Shield
+  provides protection against DDoS attacks for AWS resources
+  AWS WAF
+    monitor HTTP(S) requests and control access to web application resources
+      STORAGE
+ AWS Backup
+    centralize and automate backups of data from AWS storage services and on-premises storage systems
+   Amazon EBS
+ block-level storage volumes for use with EC2 instances
+  Amazon EFS
+    serverless, fully scalable shared file system
+   AWS Elastic Disaster Recovery
+  minimizes downtime and data loss from natural catastrophes, application failures, or disruptions of service
+  Amazon FSx
+    launch, run, and scale file systems in the cloud
+   Amazon S3
+   scalable object storage in the cloud
+   Amazon S3 Glacier storage classes
+  secure and durable data archiving and long-term backup
+  AWS Storage Gateway
+    connect an on-premises software appliance with cloud-based storage
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+9
+ 
+CONCEPTS
+   AWS WELL-ARCHITECTED FRAMEWORK
+  Operational excellence
+  support development and run workloads effectively, gain insights into workload operations, and continuously improve supporting processes and procedures to deliver business value
+ Security
+    protect data, systems, and assets by using cloud technologies to improve security
+   Reliability
+  includes the ability of a workload to perform its intended function correctly and consistently when expected throughout its lifecycle
+ Performance efficiency
+   use computing resources efficiently to meet system requirements and to maintain efficiency as demand changes and technologies evolve
+ Cost optimization
+    includes the ability to run systems to deliver business value at the lowest price point
+   Sustainability
+   focuses on environmental impacts, especially energy consumption and efficiency, to inform direct actions to reduce resource usage
+      GLOBAL INFRASTRUCTURE
+ Regions
+    isolated geographic area that consists of multiple Availability Zones
+   Availability Zones
+ one or more data centers within a Region
+  Edge locations
+    a worldwide network of data centers that optimizes latency and throughput to users
+   AWS Local Zones
+  provides low-latency access to applications by placing AWS resources close to large population and industry centers
+ AWS Wavelength
+    build applications that deliver ultra-low latencies to mobile devices and end users through 5G networks
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+10
+ 
+   AWS NETWORKING GATEWAYS
+ AWS Transit Gateway
+    connects Amazon VPCs, AWS accounts, and on-premises networks to a single gateway
+   Customer gateway
+ a physical or software appliance that a user owns and manages on premises
+  Direct Connect gateway
+  establishes connectivity that spans Amazon VPCs spread across multiple Regions
+  Internet gateway
+    an Amazon VPC component that allows communication between a user’s computer and the internet
+   NAT gateway
+  a network address translation service that gives instances in a private subnet the ability to connect to services outside of the user’s Amazon VPC
+ Virtual private gateway
+    the gateway on the AWS side of an AWS Site-to-Site VPN connection
+      EC2 INSTANCE PURCHASING OPTIONS
+ Dedicated Hosts
+    physical host that is fully dedicated to the user
+   Dedicated Instances
+   EC2 instance in a VPC dedicated to one user, no long-term commitment required, pay by the second
+   EC2 Savings Plan
+  commit to a 1-year or 3-year term for individual instance families in a Region, can change instance types within the family
+ On-Demand Capacity Reservations
+   reserve EC2 instance capacity with no term commitment required
+  On-Demand Instances
+   no long-term commitment required, pay by the second
+ Reserved Instances
+    commit to a 1-year or 3-year term
+   Spot Instances
+   request unused instances for flexible workloads
+  Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+11
+ 
+AWS Support Plans Comparison
+    BASIC
+DEVELOPER
+BUSINESS
+ENTERPRISE
+ • Core Trusted Advisor checks (service quotas and basic security)
+• All Trusted Advisor checks
+• Phone, web, and chat access 24 hours a day, 7 days a week
+• General guidance within 24 hours
+• System impaired help within 12 hours
+• Production system impaired help within 4 hours
+• Production system down help within 1 hour
+• Core Trusted Advisor checks (service quotas and basic security)
+• Business hours access to associate
+• General guidance within 24 business hours
+• System impaired help within 12 business hours
+• All Trusted Advisor checks
+• Phone, web, and chat access 24 hours a day, 7 days a week
+• General guidance within 24 hours
+• System impaired help within 12 hours
+• Production system impaired help within 4 hours
+• Production system down help within 1 hour
+• Business-critical system down help within 15 minutes
+ Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+12
+ 
+Shared Responsibility Model
+CUSTOMER
+RESPONSIBILITY FOR SECURITY ‘IN’ THE CLOUD
+AWS
+RESPONSIBILITY FOR SECURITY ‘OF’ THE CLOUD
+Customer Responsibility
+• client-side data integrity and encryption • manage guest OS
+• set password policies
+• configure firewalls and networks
+• encrypt client-side data
+• configure IAM roles
+• patch OS of EC2 instances
+• determine which services have access to
+CUSTOMER DATA
+PLATFORM, APPLICATIONS, IDENTITY & ACCESS MANAGEMENT OPERATING SYSTEM, NETWORK & FIREWALL CONFIGURATION
+  DynamoDB tables
+• global infrastructure
+• hosts
+• operation and virtualization of software • hardware maintenance
+• physical and environmental controls
+• edge location management
+• secure the EC2 hypervisor
+• patch OS of RDS instances
+• patch ELBs
+• patch OS used by Lambda
+• server-side encryption in Amazon S3
+CLIENT-SIDE DATA ENCRYPTION & DATA INTEGRITY AUTHENTICATION
+COMPUTE
+REGIONS
+Shared Responsibility
+• patches
+• configuration
+• training and awareness
+NETWORKING
+SERVER-SIDE ENCRYPTION (FILE SYSTEM AND/OR DATA)
+SOFTWARE HARDWARE/AWS GLOBAL INFRASTRUCTURE
+The preceding list is not exhaustive and provides only a few examples within the shared responsibility model.
+Explore AWS Skill Builder for more official training material. © 2023, Amazon Web Services, Inc. or its affiliates.
+13
+STORAGE
+DATABASE
+AVAILABILITY ZONES
+AWS Responsibility
+EDGE LOCATIONS
+NETWORKING TRAFFIC PROTECTION (ENCRYPTION, INTEGRITY, IDENTITY)
+ 

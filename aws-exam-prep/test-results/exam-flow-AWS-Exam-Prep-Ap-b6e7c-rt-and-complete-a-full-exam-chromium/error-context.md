@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - banner [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "AWS Cloud Practitioner Practice Exam" [level=1] [ref=e17]
+            - paragraph [ref=e18]: Question 6 of 49
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - generic [ref=e21]: 01:29:46
+              - button "⏸️ Pause" [ref=e22]
+            - button "🚪 Exit" [ref=e23]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: 1 answered
+            - generic [ref=e27]: 0 marked for review
+          - progressbar [ref=e28]
+    - main [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: Question 6 of 49
+          - button "🏳️ Mark for Review" [ref=e35]
+        - generic [ref=e36]:
+          - paragraph [ref=e38]: What is the AWS Free Tier?
+          - radiogroup [ref=e40]:
+            - generic [ref=e41]:
+              - radio "A program that provides free AWS services for one year only" [ref=e42]
+              - generic [ref=e43] [cursor=pointer]: A program that provides free AWS services for one year only
+            - generic [ref=e44]:
+              - radio "A program offering free and discounted usage of certain AWS services" [ref=e45]
+              - generic [ref=e46] [cursor=pointer]: A program offering free and discounted usage of certain AWS services
+            - generic [ref=e47]:
+              - radio "A support plan that is always free" [ref=e48]
+              - generic [ref=e49] [cursor=pointer]: A support plan that is always free
+            - generic [ref=e50]:
+              - radio "Free training and certification" [ref=e51]
+              - generic [ref=e52] [cursor=pointer]: Free training and certification
+      - generic [ref=e53]:
+        - button "← Previous" [ref=e54]
+        - button "Next →" [active] [ref=e56]
+```

@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e13]:
+    - generic [ref=e14]:
+      - heading "AWS Cloud Practitioner" [level=1] [ref=e15]
+      - heading "Exam Preparation" [level=2] [ref=e16]
+      - paragraph [ref=e17]: Practice with 50+ verified questions and realistic exam simulation
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Full Practice Exam
+          - generic [ref=e22]: Timed exam simulation
+        - generic [ref=e23]:
+          - list [ref=e24]:
+            - listitem [ref=e25]: ✓ Realistic exam simulation
+            - listitem [ref=e26]: ✓ Timed assessment
+            - listitem [ref=e27]: ✓ Domain-weighted questions
+            - listitem [ref=e28]: ✓ Complete performance analysis
+          - generic [ref=e29]:
+            - generic [ref=e30]: Number of Questions
+            - combobox "Number of Questions" [ref=e31]:
+              - generic: 50 questions (~90 min)
+              - img
+          - button "Start Full Exam" [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Quick Practice
+          - generic [ref=e36]: Timed practice session
+        - generic [ref=e37]:
+          - list [ref=e38]:
+            - listitem [ref=e39]: ✓ Faster practice sessions
+            - listitem [ref=e40]: ✓ Timed assessment
+            - listitem [ref=e41]: ✓ Perfect for daily review
+            - listitem [ref=e42]: ✓ Score tracking
+          - generic [ref=e43]:
+            - generic [ref=e44]: Number of Questions
+            - combobox "Number of Questions" [ref=e45]:
+              - generic: 20 questions (~28 min)
+              - img
+          - button "Start Quick Practice" [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: Study Mode
+          - generic [ref=e50]: Untimed learning
+        - generic [ref=e51]:
+          - list [ref=e52]:
+            - listitem [ref=e53]: ✓ Learn at your own pace
+            - listitem [ref=e54]: ✓ Immediate feedback
+            - listitem [ref=e55]: ✓ Detailed explanations
+            - listitem [ref=e56]: ✓ Source references
+          - generic [ref=e57]:
+            - generic [ref=e58]: Number of Questions
+            - combobox "Number of Questions" [ref=e59]:
+              - generic: 10 questions
+              - img
+          - button "Start Study Mode" [ref=e60]
+    - generic [ref=e61]:
+      - heading "Why Practice With Us?" [level=3] [ref=e62]
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: 📚
+          - heading "50+ Questions" [level=4] [ref=e66]
+          - paragraph [ref=e67]: Verified from official AWS sources
+        - generic [ref=e68]:
+          - generic [ref=e69]: ⏱️
+          - heading "Realistic Timer" [level=4] [ref=e70]
+          - paragraph [ref=e71]: Matches actual exam conditions
+        - generic [ref=e72]:
+          - generic [ref=e73]: 📊
+          - heading "Detailed Analytics" [level=4] [ref=e74]
+          - paragraph [ref=e75]: Track your progress over time
+        - generic [ref=e76]:
+          - generic [ref=e77]: ✨
+          - heading "100% Free" [level=4] [ref=e78]
+          - paragraph [ref=e79]: No hidden costs or limits
+    - generic [ref=e80]:
+      - paragraph [ref=e81]: This is an unofficial practice tool. Not affiliated with Amazon Web Services.
+      - paragraph [ref=e82]: Questions are sourced from official AWS documentation and reputable training materials.
+```

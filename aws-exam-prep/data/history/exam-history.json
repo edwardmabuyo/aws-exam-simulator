@@ -1,0 +1,509 @@
+{
+  "exams": [
+    {
+      "id": "99d24425-0075-49f4-b353-602af7ddd954",
+      "timestamp": 1761019519856,
+      "examMode": "full",
+      "configuration": {
+        "mode": "full",
+        "questionCount": 10,
+        "timeLimit": 1080,
+        "randomize": true
+      },
+      "questions": [
+        {
+          "questionId": "16efdead-fa22-4f49-9a32-2a73e1a2f3d9",
+          "question": {
+            "id": "16efdead-fa22-4f49-9a32-2a73e1a2f3d9",
+            "questionText": "Which of the following AWS services can be used to serve large amounts of online video content with the lowest possible latency? (Select TWO)",
+            "options": [
+              "appGateway.",
+              "Amazon S3.",
+              "Amazon Elastic File System (EFS).",
+              "Amazon Glacier.",
+              "Amazom CloudFront."
+            ],
+            "correctAnswers": [
+              1,
+              4
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Amazon S3. and Amazom CloudFront.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250308,
+              "updatedAt": 1761017250308,
+              "version": "1.0",
+              "examNumber": "11",
+              "questionNumber": "37"
+            }
+          },
+          "userAnswers": [
+            1,
+            4
+          ],
+          "correctAnswers": [
+            1,
+            4
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "4a349312-1ca0-4d3b-b57b-35e0298d4117",
+          "question": {
+            "id": "4a349312-1ca0-4d3b-b57b-35e0298d4117",
+            "questionText": "Which design principles relate to performance efficiency in AWS? (Choose TWO)",
+            "options": [
+              "Build multi-region architectures to better serve global customers.",
+              "Apply security at all layers.",
+              "Implement strong Identity and Access controls.",
+              "Use serverless architectures.",
+              "Enable audit logging."
+            ],
+            "correctAnswers": [
+              0,
+              3
+            ],
+            "multipleAnswers": true,
+            "explanation": "The correct answers are: Build multi-region architectures to better serve global customers. and Use serverless architectures.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "cloud-concepts",
+            "topic": "Design Principles",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "design principles"
+            ],
+            "metadata": {
+              "createdAt": 1761017250286,
+              "updatedAt": 1761017250286,
+              "version": "1.0",
+              "examNumber": "4",
+              "questionNumber": "28"
+            }
+          },
+          "userAnswers": [
+            3,
+            4
+          ],
+          "correctAnswers": [
+            0,
+            3
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": true,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "e2f48aa2-714c-4c91-b00d-2319e20a6876",
+          "question": {
+            "id": "e2f48aa2-714c-4c91-b00d-2319e20a6876",
+            "questionText": "What is a value proposition of the AWS Cloud?",
+            "options": [
+              "AWS is responsible for security in the AWS Cloud.",
+              "No long-term contract is required.",
+              "Provision new servers in days.",
+              "AWS manages user applications in the AWS Cloud."
+            ],
+            "correctAnswers": [
+              1
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: No long-term contract is required.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250309,
+              "updatedAt": 1761017250309,
+              "version": "1.0",
+              "examNumber": "12",
+              "questionNumber": "6"
+            }
+          },
+          "userAnswers": [
+            1
+          ],
+          "correctAnswers": [
+            1
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "e38379cc-9e27-4595-b395-7822711cbab7",
+          "question": {
+            "id": "e38379cc-9e27-4595-b395-7822711cbab7",
+            "questionText": "A company is seeking to better secure its AWS account from unauthorized access. Which of the below options can the customer use to achieve this goal?",
+            "options": [
+              "Restrict any API call made through SDKs or CLI.",
+              "Create one IAM account for each department in the company (Development, QA, Production), and share it across all staff in that department.",
+              "Require Multi-Factor Authentication (MFA) for all IAM User access.",
+              "Set up two login passwords."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Require Multi-Factor Authentication (MFA) for all IAM User access.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250288,
+              "updatedAt": 1761017250288,
+              "version": "1.0",
+              "examNumber": "5",
+              "questionNumber": "13"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "97d10059-e346-481c-9ac0-0af29bce09eb",
+          "question": {
+            "id": "97d10059-e346-481c-9ac0-0af29bce09eb",
+            "questionText": "Which service can be used to monitor and receive alerts for AWS account root user AWS Management Console sign-in events?",
+            "options": [
+              "Amazon CloudWatch",
+              "AWS Config",
+              "AWS Trusted Advisor",
+              "AWS IAM"
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon CloudWatch. For more details, please refer to the AWS documentation at https://aws.amazon.com/blogs/mt/monitor-and-notify-on-aws-account-root-user-activity/",
+            "domain": "security",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/blogs/mt/monitor-and-notify-on-aws-account-root-user-activity/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "security",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250332,
+              "updatedAt": 1761017250332,
+              "version": "1.0",
+              "examNumber": "20",
+              "questionNumber": "11"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "security"
+        },
+        {
+          "questionId": "982fac96-ae49-47f4-aa92-8eaf5a225ec4",
+          "question": {
+            "id": "982fac96-ae49-47f4-aa92-8eaf5a225ec4",
+            "questionText": "Which AWS service can be used to route end users to the nearest AWS Region to reduce latency?",
+            "options": [
+              "Amazon Cognito.",
+              "AWS Systems Manager.",
+              "AWS Cloud9.",
+              "Amazon Route 53."
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Amazon Route 53.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "Region",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "region"
+            ],
+            "metadata": {
+              "createdAt": 1761017250296,
+              "updatedAt": 1761017250296,
+              "version": "1.0",
+              "examNumber": "7",
+              "questionNumber": "44"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "cc25fd58-b194-4676-85f2-b507ed0d8590",
+          "question": {
+            "id": "cc25fd58-b194-4676-85f2-b507ed0d8590",
+            "questionText": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
+            "options": [
+              "Use AWS Budgets on each account to pay only to budget.",
+              "Contact AWS Support for a monthly bill.",
+              "Create an AWS Organization from the payer account and invite the other accounts to join.",
+              "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report."
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: Create an AWS Organization from the payer account and invite the other accounts to join.. For more details, please refer to the AWS documentation at https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html",
+            "domain": "billing",
+            "topic": "Billing",
+            "difficulty": "medium",
+            "sourceUrl": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "billing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250317,
+              "updatedAt": 1761017250317,
+              "version": "1.0",
+              "examNumber": "14",
+              "questionNumber": "50"
+            }
+          },
+          "userAnswers": [
+            2
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        },
+        {
+          "questionId": "710c9e81-3655-41ff-b8d0-3d6f340422a1",
+          "question": {
+            "id": "710c9e81-3655-41ff-b8d0-3d6f340422a1",
+            "questionText": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. <br/> Where can the administrator find assistance?",
+            "options": [
+              "AWS Well-Architected Framework documentation",
+              "Amazon CloudFront",
+              "AWS CodeCommit",
+              "AWS Quick Start reference deployments"
+            ],
+            "correctAnswers": [
+              3
+            ],
+            "multipleAnswers": false,
+            "explanation": "- Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability.\n    - These accelerators reduce hundreds of manual procedures into just a few steps, so you can build your production environment quickly and start using it immediately.\n\n    Reference:",
+            "domain": "cloud-concepts",
+            "topic": "AWS Services",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/quickstart/?quickstart-all.sort-by=item.additionalFields.updateDate&quickstart-all.sort-order=desc",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "cloud-concepts",
+              "aws services"
+            ],
+            "metadata": {
+              "createdAt": 1761017250318,
+              "updatedAt": 1761017250318,
+              "version": "1.0",
+              "examNumber": "15",
+              "questionNumber": "14"
+            }
+          },
+          "userAnswers": [
+            3
+          ],
+          "correctAnswers": [
+            3
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "cloud-concepts"
+        },
+        {
+          "questionId": "bc1a11d2-fcd6-465e-8ea1-3f1e0a21fb67",
+          "question": {
+            "id": "bc1a11d2-fcd6-465e-8ea1-3f1e0a21fb67",
+            "questionText": "What does Amazon Elastic Beanstalk provide?",
+            "options": [
+              "A PaaS solution to automate application deployment.",
+              "A compute engine for Amazon ECS.",
+              "A scalable file storage solution for use with AWS and on-premises servers.",
+              "A NoSQL database service."
+            ],
+            "correctAnswers": [
+              0
+            ],
+            "multipleAnswers": false,
+            "explanation": "The correct answer is: A PaaS solution to automate application deployment.. For more details, please refer to the AWS documentation at https://aws.amazon.com/certification/certified-cloud-practitioner/",
+            "domain": "technology",
+            "topic": "Elastic Beanstalk",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "technology",
+              "elastic beanstalk"
+            ],
+            "metadata": {
+              "createdAt": 1761017250281,
+              "updatedAt": 1761017250281,
+              "version": "1.0",
+              "examNumber": "3",
+              "questionNumber": "15"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            0
+          ],
+          "isCorrect": true,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "technology"
+        },
+        {
+          "questionId": "168c052b-eef1-49a2-8803-3fbd8f07313e",
+          "question": {
+            "id": "168c052b-eef1-49a2-8803-3fbd8f07313e",
+            "questionText": "Which Amazon EC2 pricing model adjusts based on supply and demand of EC2 instances?",
+            "options": [
+              "On-Demand Instances",
+              "Reserved Instances",
+              "Spot Instances",
+              "Convertible Reserved Instances"
+            ],
+            "correctAnswers": [
+              2
+            ],
+            "multipleAnswers": false,
+            "explanation": "- In the new model, the Spot prices are more predictable, updated less frequently, and are determined by supply and demand for Amazon EC2 spare capacity, not bid prices.\n\n    Reference:",
+            "domain": "billing",
+            "topic": "Pricing",
+            "difficulty": "medium",
+            "sourceUrl": "https://aws.amazon.com/blogs/compute/new-amazon-ec2-spot-pricing/",
+            "sourceName": "AWS Documentation",
+            "tags": [
+              "billing",
+              "pricing"
+            ],
+            "metadata": {
+              "createdAt": 1761017250316,
+              "updatedAt": 1761017250316,
+              "version": "1.0",
+              "examNumber": "14",
+              "questionNumber": "28"
+            }
+          },
+          "userAnswers": [
+            0
+          ],
+          "correctAnswers": [
+            2
+          ],
+          "isCorrect": false,
+          "timeSpent": 0,
+          "wasMarkedForReview": false,
+          "domain": "billing"
+        }
+      ],
+      "score": {
+        "totalQuestions": 10,
+        "correctAnswers": 7,
+        "incorrectAnswers": 3,
+        "unansweredQuestions": 0,
+        "rawScore": 7,
+        "percentageScore": 70,
+        "scaledScore": 730,
+        "passFail": "pass",
+        "domainScores": {
+          "cloudConcepts": {
+            "domain": "cloud-concepts",
+            "questionsInDomain": 3,
+            "correctInDomain": 2,
+            "percentageScore": 66.66666666666666,
+            "scaledScore": 700
+          },
+          "security": {
+            "domain": "security",
+            "questionsInDomain": 3,
+            "correctInDomain": 2,
+            "percentageScore": 66.66666666666666,
+            "scaledScore": 700
+          },
+          "technology": {
+            "domain": "technology",
+            "questionsInDomain": 2,
+            "correctInDomain": 2,
+            "percentageScore": 100,
+            "scaledScore": 1000
+          },
+          "billing": {
+            "domain": "billing",
+            "questionsInDomain": 2,
+            "correctInDomain": 1,
+            "percentageScore": 50,
+            "scaledScore": 550
+          }
+        }
+      },
+      "timeTaken": 267.781,
+      "averageTimePerQuestion": 26.778100000000002,
+      "completed": true,
+      "submittedAt": 1761019519856
+    }
+  ]
+}

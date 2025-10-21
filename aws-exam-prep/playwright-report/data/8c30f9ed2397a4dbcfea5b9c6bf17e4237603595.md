@@ -1,0 +1,44 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - banner [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "AWS Cloud Practitioner Practice Exam" [level=1] [ref=e17]
+            - paragraph [ref=e18]: Question 1 of 10
+          - button "🚪 Exit" [ref=e20]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]: 0 answered
+            - generic [ref=e24]: 0 marked for review
+          - progressbar [ref=e25]
+    - main [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: Question 1 of 10
+          - button "🏳️ Mark for Review" [ref=e32]
+        - generic [ref=e33]:
+          - paragraph [ref=e35]: Which service allows you to run SQL queries directly on data stored in Amazon S3?
+          - radiogroup [active] [ref=e37]:
+            - generic [ref=e38]:
+              - radio "Amazon RDS" [ref=e39]
+              - generic [ref=e40] [cursor=pointer]: Amazon RDS
+            - generic [ref=e41]:
+              - radio "Amazon Athena" [ref=e42]
+              - generic [ref=e43] [cursor=pointer]: Amazon Athena
+            - generic [ref=e44]:
+              - radio "Amazon Redshift" [ref=e45]
+              - generic [ref=e46] [cursor=pointer]: Amazon Redshift
+            - generic [ref=e47]:
+              - radio "AWS Glue" [ref=e48]
+              - generic [ref=e49] [cursor=pointer]: AWS Glue
+      - generic [ref=e50]:
+        - button "← Previous" [disabled]
+        - button "Next →" [ref=e52]
+```

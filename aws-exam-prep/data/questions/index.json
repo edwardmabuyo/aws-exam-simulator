@@ -1,0 +1,11 @@
+{
+  "version": "1.2",
+  "lastUpdated": "2025-10-21",
+  "totalQuestions": 1347,
+  "domainDistribution": {
+    "cloud-concepts": 269,
+    "security": 302,
+    "technology": 550,
+    "billing": 226
+  }
+}
